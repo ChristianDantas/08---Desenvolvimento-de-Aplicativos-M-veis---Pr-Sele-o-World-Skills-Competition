@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+/*: root é a raiz, onde podemos colocar cores ou linhas padronizadas*/
+:root{
+    background-color: #252B42;
+}
+/*:editando*/
+.Conteudo{
+    display: flex;
+
+    margin-left: 100px;
+}
+
+.Logo-e-afins{
+    display: flex;
+    align-items: baseline;
+    margin-right: 10em;
+}
+
+.Logo-e-afins h1{
+font-family: Montserrat;
+font-style: bold;
+}
+
+.Conteudo h1{
+    color: white;
+    text-align: justify;
+}
+
+.Conteudo h3{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 2em;    
+}
+
+ h3 :hover{
+    transform: scale(1.3);
+    color: yellow;
+}
+.botao-login{
+    display: flex;
+    justify-content: flex-end
+}
+
